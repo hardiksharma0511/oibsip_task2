@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+  }
+  nav a:hover {
+    background-color: #777;
+  }
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+  .column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .content {
+    text-align: center;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  body{
+    background-color: rgb(69, 74, 74);
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Hardik Sharma</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="pf.jpg" alt="Profile Picture" style="max-width: 200px; height: auto; display: block; margin: 0 auto 20px; border-radius: 8px;">
+      <p>I'm Hardik Sharma, a passionate college student deeply immersed in the world of coding and web development. I love crafting visually stunning and user-friendly websites. Beyond coding, I enjoy working on projects that challenge me and allow me to apply my skills creatively. I'm always eager to learn new technologies and share my knowledge with others. Join me on this exciting journey through the ever-evolving landscape of web development!</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="column">
+          <h3>HTML</h3>
+          <p>Proficient in creating semantically correct and responsive web pages using HTML5.</p>
+        </div>
+        <div class="column">
+          <h3>CSS</h3>
+          <p>Skilled in styling web pages with CSS3 including Flexbox and Grid layouts.</p>
+        </div>
+        <div class="column">
+          <h3>JavaScript</h3>
+          <p>Familiar with JavaScript and libraries like jQuery for interactive web development.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="column">
+          <img src="p1.webp" alt="Project 1">
+          <div class="content">
+            <h3>Personal Portfolio</h3>
+            <p>A responsive portfolio website showcasing my skills and projects.</p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="p2.jpg" alt="Project 2">
+          <div class="content">
+            <h3>ToDo App</h3>
+            <p>An interactive ToDo application built with HTML, CSS, and JavaScript.</p>
+          </div>
+        </div>
+        <div class="column">
+          <img src="p3.jpg" alt="Project 3">
+          <div class="content">
+            <h3>Blog Website</h3>
+            <p>A simple blog website built with HTML, CSS, and JavaScript .</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="content">
+        <p>If you have any questions or would like to collaborate on a project, feel free to contact me!</p>
+        <p>Email: hardikme1234@gmail.com</p>
+        <p>Phone: 6399867342</p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 hardik sharma. All rights reserved.</p>
+  </footer>
+</body>
+</html>
